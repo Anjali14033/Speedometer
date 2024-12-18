@@ -130,6 +130,10 @@ docker run -p 80:80 frontend
 
 4. Access the App:  Open http://localhost in a browser.
 
+## UI of Speedometer
+
+![UI of meter](https://github.com/user-attachments/assets/f9eb1c44-a960-45ce-8809-ca00a3822fc2)
+
 
 ## Challenges:
 
