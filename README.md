@@ -108,6 +108,28 @@ Upon receiving the data, the backend stores it in the MySQL database and sends t
   ## "timestamp": <current_time>
 ## } 
 
+## Steps to Run
+
+1. Start MySQL Database: Ensure MySQL is running with the required table (speed_data) created.
+
+2. Build Docker Images:
+- bash code
+## docker build -t backend .
+## docker build -t frontend .
+
+3. Run Containers:
+#Backend:
+- bash code
+# docker run -p 5000:5000 -p 8765:8765 backend
+
+#Frontend:
+- bash code
+
+docker run -p 80:80 frontend
+
+4. Access the App:  Open http://localhost in a browser.
+
+
 ## Challenges:
 
 - Handling WebSocket disconnections gracefully.
