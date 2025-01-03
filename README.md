@@ -1,4 +1,4 @@
-# SPEEDOMETER APP
+# SPEEDSYNC TRACKER APP
 
 
 ## Project Overview
